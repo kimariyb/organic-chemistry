@@ -1,0 +1,48 @@
+% !TEX program = xelatex
+\documentclass[
+  10pt,
+  twoside,
+  openany,
+  b5paper, % 以上均为 ctexbook 提供的文类选项
+  colorscheme = basic, % 请根据需要选择或定制配色方案
+]{qyxf-book}
+
+\title{钱院学辅 \LaTeX 书籍模板}
+\subtitle{\LaTeX{} book class of Qian Yuan Xue Fu}  % 可选
+\author{钱小辅}
+\date{2019 年 2 月 29 日}
+%\typo{AlphaGo}  % 排版人员信息，选填
+
+% 定制元信息
+\org{\Large\textit{西安交通大学}\\\textsc{Xi'an Jiaotong University}}
+\footorg{\textsc{Qian Yuan Xue Fu}}
+\cover{\includegraphics[width=.6\textwidth]{qyxf-logo.pdf}}
+\license{}  % 清空许可证信息
+
+% 导包
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage[journal=jacs]{chemstyle} 
+
+
+% 调整封面标题大小
+\renewcommand{\titlefont}{\Huge\bfseries}
+\renewcommand{\subtitlefont}{\LARGE\itshape}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{习题}
+
+
+\begin{scheme}
+	\includegraphics{chemdraw/example.eps}
+\end{scheme}
+
+
+
+
+\end{document}
