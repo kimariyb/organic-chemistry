@@ -1,6 +1,6 @@
 # 有机化学（名称暂定）
 
-<img src="有机化学习题\figure\logo.png" alt="1_BigPic" style="zoom:50%;" />
+<img src="有机化学习题\figure\logo.png" alt="1_BigPic" style="zoom:20%;" />
 
 本书是由振宇考研韩玉玺老师主编的一本有机化学考研习题工具书。全书使用 Latex 排版，使用了钱院学辅开发的`qyxf-book` 书籍模板作为本书的开发模板，特此鸣谢。
 
